@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Hardik</h1>
-<h3 align="center">Building clean, useful, and scalable software</h3>
+<h3 align="center">To-be Sophie @ IITB</h3>
 
 <p align="center">
   <a href="https://github.com/hardik-mirg"><img src="https://komarev.com/ghpvc/?username=hardik-mirg&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" /></a>
@@ -9,10 +9,9 @@
 ---
 
 ### 🚀 About Me
-- 💻 Passionate about full-stack development and practical problem-solving  
-- 🌱 Currently learning and exploring modern backend + cloud workflows  
-- 🤝 Open to collaboration on impactful open-source projects  
-- ⚡ Fun fact: I enjoy turning ideas into polished products
+- 💻 I like making software that I'll use myself 
+- 🌱 Love tinkering with IoT stuff  
+- ⚡ Lately been into App Dev with flutter and Computer Vision
 
 ---
 
@@ -27,7 +26,7 @@
 
 ### 🛠️ Tech Stack
 <p>
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,python,java,cpp,html,css,tailwind,mysql,mongodb,git,github,linux,vscode" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,python,dart,flutter,cpp,html,css,tailwind,mysql,mongodb,git,github,linux,vscode,ollama,claude,jupyter" alt="Tech stack" />
 </p>
 
 ---
@@ -53,4 +52,5 @@
 
 ### 📫 Contact
 - GitHub: [@hardik-mirg](https://github.com/hardik-mirg)
-- Open an issue: [Report an Issue](https://github.com/hardik-mirg/hardik-mirg/issues)
+- LinkedIn: [Hardik Mirg](https://www.linkedin.com/in/hardikmirg/)
+- Instagram: [@hardikk2.718](https://www.instagram.com/hardikk2.718/)

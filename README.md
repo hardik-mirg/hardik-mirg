@@ -3,7 +3,6 @@
 
 <p align="center">
   <a href="https://github.com/hardik-mirg"><img src="https://komarev.com/ghpvc/?username=hardik-mirg&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" /></a>
-  <a href="https://github.com/hardik-mirg?tab=followers"><img src="https://img.shields.io/github/followers/hardik-mirg?label=Followers&style=social" alt="GitHub followers" /></a>
 </p>
 
 ---
@@ -15,15 +14,6 @@
 
 ---
 
-### 🌐 Connect With Me
-<p>
-  <a href="https://github.com/hardik-mirg" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://github.com/hardik-mirg?tab=repositories" target="_blank"><img src="https://img.shields.io/badge/Repositories-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"/></a>
-  <a href="https://github.com/hardik-mirg?tab=stars" target="_blank"><img src="https://img.shields.io/badge/Starred-ffd33d?style=for-the-badge&logo=github&logoColor=181717" alt="Starred Repositories"/></a>
-</p>
-
----
-
 ### 🛠️ Tech Stack
 <p>
   <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,python,dart,flutter,cpp,html,css,tailwind,mysql,mongodb,git,github,linux,vscode,ollama,claude,jupyter" alt="Tech stack" />
@@ -32,10 +22,6 @@
 ---
 
 ### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hardik-mirg&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hardik-mirg&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=hardik-mirg&theme=tokyonight&hide_border=true" alt="GitHub streak" />
@@ -48,6 +34,14 @@
 - 🔹 [tunnel-redirects](https://github.com/hardik-mirg/tunnel-redirects) — Cloudflare tunnel-based backend hosting workaround  
 - 🔹 [esp32-transmitter-receiver](https://github.com/hardik-mirg/esp32-transmitter-receiver) — DIY ESP32 RC transmitter/receiver using ESP-NOW
 
+---
+
+### 🌐 Connect With Me
+<p>
+  <a href="https://github.com/hardik-mirg" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://github.com/hardik-mirg?tab=repositories" target="_blank"><img src="https://img.shields.io/badge/Repositories-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"/></a>
+  <a href="https://github.com/hardik-mirg?tab=stars" target="_blank"><img src="https://img.shields.io/badge/Starred-ffd33d?style=for-the-badge&logo=github&logoColor=181717" alt="Starred Repositories"/></a>
+</p>
 ---
 
 ### 📫 Contact

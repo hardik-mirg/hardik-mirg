@@ -19,8 +19,8 @@
 ### 🌐 Connect With Me
 <p>
   <a href="https://github.com/hardik-mirg" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://www.linkedin.com/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://twitter.com/" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/></a>
+  <a href="https://github.com/hardik-mirg?tab=repositories" target="_blank"><img src="https://img.shields.io/badge/Repositories-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"/></a>
+  <a href="https://github.com/hardik-mirg?tab=stars" target="_blank"><img src="https://img.shields.io/badge/Starred-ffd33d?style=for-the-badge&logo=github&logoColor=181717" alt="Starred Repositories"/></a>
 </p>
 
 ---
@@ -45,13 +45,12 @@
 ---
 
 ### ⭐ Featured Projects
-- 🔹 [Portfolio / Personal Website](https://github.com/hardik-mirg) — showcase of skills and projects  
-- 🔹 [Full-Stack App](https://github.com/hardik-mirg?tab=repositories) — end-to-end development with modern tools  
-- 🔹 [Open Source Contributions](https://github.com/hardik-mirg?tab=repositories) — collaborative and community-driven work
+- 🔹 [local-server](https://github.com/hardik-mirg/local-server) — backend for a local Termux server setup on Android  
+- 🔹 [tunnel-redirects](https://github.com/hardik-mirg/tunnel-redirects) — Cloudflare tunnel-based backend hosting workaround  
+- 🔹 [esp32-transmitter-receiver](https://github.com/hardik-mirg/esp32-transmitter-receiver) — DIY ESP32 RC transmitter/receiver using ESP-NOW
 
 ---
 
 ### 📫 Contact
 - GitHub: [@hardik-mirg](https://github.com/hardik-mirg)
-- LinkedIn: [Add your LinkedIn profile URL](https://www.linkedin.com/)
-- Email: `hardik@example.com`
+- Open an issue: [hardik-mirg/hardik-mirg/issues](https://github.com/hardik-mirg/hardik-mirg/issues)

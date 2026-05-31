@@ -45,7 +45,7 @@
 ---
 
 ### ⭐ Featured Projects
-- 🔹 [local-server](https://github.com/hardik-mirg/local-server) — backend for a local Termux server setup on Android  
+- 🔹 [local-server](https://github.com/hardik-mirg/local-server) — Backend for a local Termux server setup on Android  
 - 🔹 [tunnel-redirects](https://github.com/hardik-mirg/tunnel-redirects) — Cloudflare tunnel-based backend hosting workaround  
 - 🔹 [esp32-transmitter-receiver](https://github.com/hardik-mirg/esp32-transmitter-receiver) — DIY ESP32 RC transmitter/receiver using ESP-NOW
 
@@ -53,4 +53,4 @@
 
 ### 📫 Contact
 - GitHub: [@hardik-mirg](https://github.com/hardik-mirg)
-- Open an issue: [hardik-mirg/hardik-mirg/issues](https://github.com/hardik-mirg/hardik-mirg/issues)
+- Open an issue: [Report an Issue](https://github.com/hardik-mirg/hardik-mirg/issues)

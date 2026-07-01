@@ -10,10 +10,10 @@
 ![](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=60&duration=1000&pause=100&color=29D22D&center=true&vCenter=true&multiline=true&width=20&height=85&lines=%7C)
 
 </span>
-
+<span style="white-space: nowrap">
 <img width='50px' src="https://avatars.githubusercontent.com/u/106103465?s=200&v=4"/>
 <img width='50px' src="https://www.iitb.ac.in/themes/custom/iitb_bootstrap/logo.png"/>
-<br/>
+</span>
 
 <a href="https://github.com/hardik-mirg"><img src="https://komarev.com/ghpvc/?username=hardik-mirg&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" /></a>
 

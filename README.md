@@ -15,6 +15,8 @@
 
 <span style="white-space: nowrap;">
 
+![](https://github-readme-activity-graph.vercel.app/graph?username=hardik-mirg&bg_color=141321&color=a9fef7&line=fe428e&point=f8d847&area=true&hide_border=true)
+
 ![](https://github-stats-extended.vercel.app/api/?username=hardik-mirg&show_icons=true&theme=radical&rank_icon=github&include_all_commits=true&custom_title=Hardik%27s+Stats&disable_animations=false&number_format=long&show=prs_merged_percentage,prs_reviewed)
 
 ![](https://github-stats-extended.vercel.app/api/top-langs?username=hardik-mirg&layout=donut&langs_count=6&theme=radical)

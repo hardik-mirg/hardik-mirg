@@ -50,9 +50,10 @@
 
 
 # ⭐ Featured Projects
-- 🔹 [local-server](https://github.com/hardik-mirg/local-server) — Backend for a local Termux server setup on Android  
-- 🔹 [tunnel-redirects](https://github.com/hardik-mirg/tunnel-redirects) — Cloudflare tunnel-based backend hosting workaround  
-- 🔹 [esp32-transmitter-receiver](https://github.com/hardik-mirg/esp32-transmitter-receiver) — DIY ESP32 RC transmitter/receiver using ESP-NOW
+
+Contributing to
+
+[![](https://github-stats-extended.vercel.app/api/pin?username=hardik-mirg&repo=devcom-iitb/instiapp-flutter&show_owner=true&description_lines_count=1&theme=radical)](https://github.com/devcom-iitb/instiapp-flutter)
 
 
 

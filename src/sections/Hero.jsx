@@ -60,7 +60,7 @@ const Hero = () => {
                     {/* Render twice for seamless looping */}
                     {[...Array(2)].map((_, i) => (
                         <React.Fragment key={i}>
-                            {['html', 'css', 'js', 'nodejs', 'express', 'mongodb', 'react', 'dart', 'flutter', 'mysql', 'python', 'cpp', 'tailwind', 'git', 'github', 'vscode', 'apple', 'linux'].map((tech) => (
+                            {['html', 'css', 'js', 'nodejs', 'express', 'mongodb', 'react', 'dart', 'flutter', 'mysql', 'python', 'cpp', 'tailwind', 'git', 'github', 'vscode', 'apple', 'linux', 'windows', 'arduino', 'bash', 'cloudflare', 'codepen', 'debian', 'ubuntu', 'devto', 'discord', 'discordjs', 'docker', 'figma', 'latex', 'md', 'matlab', 'mint', 'netlify', 'nginx', 'notion', 'obsidian', 'npm', 'opencv', 'replit', 'ros', 'supabase', 'vite'].map((tech) => (
                                 <img key={tech + i} src={`https://skillicons.dev/icons?i=${tech}`} alt={tech} className="tech-icon-marquee" style={{ height: '40px', width: 'auto', pointerEvents: 'auto', transition: 'transform 0.2s' }} />
                             ))}
                         </React.Fragment>

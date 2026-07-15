@@ -6,6 +6,10 @@ import './styles/hero.css'
 const Hero = () => {
     return (
         <div className="hero">
+            <div className="fun-fact-card">
+                <span className="fun-fact-badge">FUN FACT</span>
+                <span>This website, along with all other projects on this domain, is self-hosted on an old Android smartphone instead of a data centre!</span>
+            </div>
             <ShuffleText
                 text="HARDIK"
                 className='title'
@@ -35,21 +39,22 @@ const Hero = () => {
                 loopDelay={2}
             />
             <RotatingText
-            className= 'rotating'
-  texts={['Aerospace', 'Robotics', 'Electronics', 'CS', 'AI', 'Photography', 'Music']}
-  mainClassName=""
-  staggerFrom="last"
-  initial={{ y: "100%" }}
-  animate={{ y: 0 }}
-  exit={{ y: "-120%" }}
-  staggerDuration={0.025}
-  splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
-  transition={{ type: "spring", damping: 30, stiffness: 400 }}
-  rotationInterval={2000}
-  splitBy="characters"
-  auto
-  loop
-/>
+                className='rotating'
+                texts={['Aerospace', 'Robotics', 'Electronics', 'CS', 'AI', 'Photography', 'Music']}
+                mainClassName=""
+                staggerFrom="last"
+                initial={{ y: "100%" }}
+                animate={{ y: 0 }}
+                exit={{ y: "-120%" }}
+                staggerDuration={0.025}
+                splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+                transition={{ type: "spring", damping: 30, stiffness: 400 }}
+                rotationInterval={2000}
+                splitBy="characters"
+                animatePresenceMode="popLayout"
+                auto
+                loop
+            />
             <div className="marquee-container">
                 <div className="marquee-content" style={{ alignItems: 'center' }}>
                     {/* Render twice for seamless looping */}

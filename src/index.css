@@ -7,8 +7,12 @@
 }
 
 body {
-  cursor: url('/images/ep1.png') 4 4, default;
+  cursor: url('/images/ep1.png') 10 10, default;
   color: white;
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 :any-link,
@@ -20,7 +24,7 @@ select,
 summary,
 [role="button"],
 .clickable {
-  cursor: url('/images/eoe1.png') 4 4, pointer;
+  cursor: url('/images/eoe1.png') 10 10, pointer;
 }
 
 body {

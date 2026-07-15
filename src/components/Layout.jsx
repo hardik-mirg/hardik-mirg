@@ -33,17 +33,17 @@ export default function Layout() {
     <div style={{ position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden' }}>
       <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: -10 }}>
         <Galaxy
-          mouseRepulsion={false}
+          mouseRepulsion={true}
           mouseInteraction={true}
-          density={2.8}
+          density={2}
           glowIntensity={0.5}
-          saturation={0.1}
-          hueShift={140}
-          twinkleIntensity={0.7}
+          saturation={1}
+          hueShift={130}
+          twinkleIntensity={1.5}
           rotationSpeed={0.1}
           repulsionStrength={2}
           autoCenterRepulsion={0}
-          starSpeed={0.5}
+          starSpeed={0.9}
           speed={1}
           transparent={false}
         />

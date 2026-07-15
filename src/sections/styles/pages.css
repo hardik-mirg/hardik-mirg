@@ -51,7 +51,7 @@
   border-radius: 6px;
   padding: 1.25rem;
   transition: all 0.3s ease;
-  cursor: pointer;
+  cursor: url('/images/eoe1.png') 10 10, pointer;
 }
 
 .archive-card:hover {
@@ -117,7 +117,7 @@
   padding: 0.5rem 1rem;
   font-family: 'Press Start 2P', monospace;
   font-size: 0.65rem;
-  cursor: pointer;
+  cursor: url('/images/eoe1.png') 10 10, pointer;
   transition: all 0.2s ease;
 }
 
@@ -553,7 +553,7 @@
 .blog-read-more {
   font-size: 0.6rem;
   color: #00ffcc;
-  cursor: pointer;
+  cursor: url('/images/eoe1.png') 10 10, pointer;
   text-decoration: none;
   margin-top: auto;
   border: 1px solid #00ffcc;

@@ -42,7 +42,7 @@ const Music = () => {
       ) : (
         <div className="music-panel">
           <p style={{ fontSize: '0.65rem', lineHeight: '1.5', color: '#aaa' }}>
-            Tune in to my favorite curation of coding beats and space soundtracks.
+            Tune in to my favorite curation of beats and soundtracks.
           </p>
           
           <div className="spotify-container">

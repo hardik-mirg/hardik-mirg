@@ -1,0 +1,69 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+
+.hero .title {
+    font-size: clamp(2rem, 10vw, 4rem);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.rotating {
+    background-color: #06fbcad2;
+    color: black;
+    overflow: hidden;
+    font-size: clamp(1.2rem, 6vw, 3rem);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.marquee-container {
+  overflow: hidden;
+  width: 100vw;
+  display: flex;
+  margin-top: 3rem;
+  background: rgba(18, 15, 23, 0.4);
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 0.8rem 0;
+  pointer-events: none;
+}
+
+.marquee-content {
+  display: flex;
+  gap: 4rem;
+  animation: marquee 25s linear infinite;
+  white-space: nowrap;
+  width: max-content;
+}
+
+@keyframes marquee {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+.tech-tag-marquee {
+  font-size: 0.8rem;
+  color: #00ffcc;
+  text-shadow: 0 0 5px rgba(0, 255, 204, 0.3);
+  text-transform: uppercase;
+}

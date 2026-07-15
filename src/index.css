@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  cursor: url('/images/ep1.png') 4 4, default;
+  color: white;
+}
+
+:any-link,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+select,
+summary,
+[role="button"],
+.clickable {
+  cursor: url('/images/eoe1.png') 4 4, pointer;
+}
+
+body {
+  background: #0C0C0C;
+  font-family: 'Press Start 2P', monospace;
+}

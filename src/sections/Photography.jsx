@@ -6,6 +6,35 @@ const defaultPhotos = [
   { title: 'Morning Rays (Alpine)', path: '/images/mountain.png' }
 ];
 
+const ImageCard = ({ photo }) => {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  return (
+    <div className="photo-card" style={{ position: 'relative', minHeight: '200px', display: 'flex', flexDirection: 'column' }}>
+      {!isLoaded && (
+        <div className="photo-placeholder" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 2 }}>
+          LOADING...
+        </div>
+      )}
+      <img
+        src={photo.path}
+        alt={photo.title || 'Photography item'}
+        className="photo-img"
+        loading="lazy"
+        onLoad={() => setIsLoaded(true)}
+        style={{ 
+          opacity: isLoaded ? 1 : 0,
+          transition: 'opacity 0.3s ease-in-out',
+          width: '100%'
+        }}
+      />
+      {isLoaded && photo.title && (
+        <div className="photo-title-text">{photo.title}</div>
+      )}
+    </div>
+  );
+};
+
 const Photography = () => {
   const [photos, setPhotos] = useState([]);
   const [fetchStatus, setFetchStatus] = useState('Fetching...');
@@ -45,10 +74,7 @@ const Photography = () => {
       ) : (
         <div className="photo-grid">
           {photos.map((photo, idx) => (
-            <div key={idx} className="photo-card">
-              <img src={photo.path} alt={photo.title} className="photo-img" />
-              <div className="photo-title-text">{photo.title}</div>
-            </div>
+            <ImageCard key={idx} photo={photo} />
           ))}
         </div>
       )}

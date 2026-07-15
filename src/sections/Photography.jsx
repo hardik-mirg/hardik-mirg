@@ -12,7 +12,7 @@ const Photography = () => {
   const [isFallback, setIsFallback] = useState(false);
 
   useEffect(() => {
-    fetch('/api/photography')
+    fetch('https://api.hardik.dpdns.org/api/photography')
       .then(res => {
         if (!res.ok) throw new Error(`Server returned ${res.status}`);
         return res.json();

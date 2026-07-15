@@ -48,7 +48,7 @@ const Projects = () => {
   const [isFallback, setIsFallback] = useState(false);
 
   useEffect(() => {
-    fetch('/api/projects')
+    fetch('https://api.hardik.dpdns.org/api/projects')
       .then(res => {
         if (!res.ok) throw new Error(`Server returned ${res.status}`);
         return res.json();

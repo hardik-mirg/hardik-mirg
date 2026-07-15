@@ -28,7 +28,7 @@ const Blog = () => {
   const [isFallback, setIsFallback] = useState(false);
 
   useEffect(() => {
-    fetch('/api/blogs')
+    fetch('https://api.hardik.dpdns.org/api/blogs')
       .then(res => {
         if (!res.ok) throw new Error(`Server returned ${res.status}`);
         return res.json();

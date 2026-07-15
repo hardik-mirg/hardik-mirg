@@ -26,7 +26,7 @@ const Library = () => {
   const [isFallback, setIsFallback] = useState(false);
 
   useEffect(() => {
-    fetch('/api/library')
+    fetch('https://api.hardik.dpdns.org/api/library')
       .then(res => {
         if (!res.ok) throw new Error(`Server returned ${res.status}`);
         return res.json();

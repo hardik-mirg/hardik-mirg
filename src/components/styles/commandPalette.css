@@ -1,0 +1,151 @@
+.palette-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 15vh;
+  z-index: 9999;
+}
+
+.palette-modal {
+  width: 90%;
+  max-width: 500px;
+  background: rgba(18, 15, 23, 0.95);
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5), 0 0 15px rgba(0, 255, 204, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.palette-search-container {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #222;
+  gap: 0.75rem;
+}
+
+.palette-search-icon {
+  color: #555;
+}
+
+.palette-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: monospace;
+  font-size: 0.75rem;
+}
+
+.palette-esc-badge {
+  font-family: monospace;
+  font-size: 0.5rem;
+  background: #222;
+  color: #777;
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+  border: 1px solid #333;
+}
+
+.palette-results {
+  max-height: 250px;
+  overflow-y: auto;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.palette-results::-webkit-scrollbar {
+  width: 4px;
+}
+
+.palette-results::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 2px;
+}
+
+.palette-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 0.8rem;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.7rem;
+  color: #aaa;
+  cursor: url('/images/eoe1.png') 10 10, pointer;
+  transition: all 0.15s ease;
+}
+
+.palette-item.selected {
+  background: rgba(0, 255, 204, 0.1);
+  color: #00ffcc;
+  border-left: 2px solid #00ffcc;
+  padding-left: calc(0.8rem - 2px);
+}
+
+.palette-item-name {
+  font-weight: bold;
+}
+
+.palette-item-shortcut {
+  font-size: 0.55rem;
+  color: #555;
+}
+
+.palette-item.selected .palette-item-shortcut {
+  color: #00ffcc88;
+}
+
+.palette-no-results {
+  padding: 1.5rem;
+  text-align: center;
+  font-family: monospace;
+  font-size: 0.65rem;
+  color: #555;
+}
+
+.palette-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid #222;
+  background: rgba(10, 8, 14, 0.95);
+  font-family: monospace;
+  font-size: 0.55rem;
+  color: #444;
+}
+
+@media (max-width: 640px) {
+  .palette-overlay {
+    padding-top: 5vh;
+  }
+}
+
+body.command-palette-open {
+  cursor: url('/images/cmd.png') 10 10, default !important;
+}
+
+body.command-palette-open :any-link,
+body.command-palette-open button,
+body.command-palette-open input[type="button"],
+body.command-palette-open input[type="submit"],
+body.command-palette-open input[type="reset"],
+body.command-palette-open select,
+body.command-palette-open summary,
+body.command-palette-open [role="button"],
+body.command-palette-open .clickable,
+body.command-palette-open .palette-item {
+  cursor: url('/images/cmd_hover.png') 10 10, pointer !important;
+}

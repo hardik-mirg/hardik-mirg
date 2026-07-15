@@ -66,9 +66,15 @@ const Hero = () => {
                         </React.Fragment>
                     ))}
                 </div>
+            <div className="command-palette-tip">
+                <span>Press </span>
+                <kbd>Ctrl / ⌘ + k</kbd>
+                <span> or </span>
+                <kbd>/</kbd>
+                <span> to search</span>
+            </div>
             </div>
         </div>
-
     )
 }
 

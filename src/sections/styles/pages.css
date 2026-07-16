@@ -570,23 +570,42 @@
 
 /* Photography Layout Styles */
 .photo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 1.5rem;
+  column-count: 1;
+  column-gap: 1.5rem;
   width: 90%;
-  max-width: 1000px;
+  max-width: 1400px;
   padding-bottom: 4rem;
+  margin: 0 auto;
 }
 
 .photo-card {
+  break-inside: avoid;
   background: rgba(18, 15, 23, 0.85);
   border: 2px solid #222;
   border-radius: 8px;
   padding: 0.5rem;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 500px) {
+  .photo-grid {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 900px) {
+  .photo-grid {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 1200px) {
+  .photo-grid {
+    column-count: 4;
+  }
 }
 
 .photo-img {
@@ -695,12 +714,6 @@
 
   .blog-card {
     padding: 1rem;
-  }
-
-  .photo-grid {
-    grid-template-columns: 1fr;
-    width: 95%;
-    gap: 1rem;
   }
 
   .photo-img {

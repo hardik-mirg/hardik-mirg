@@ -10,7 +10,7 @@ const ImageCard = ({ photo }) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
-    <div className="photo-card" style={{ position: 'relative', minHeight: '200px', display: 'flex', flexDirection: 'column' }}>
+    <div className="photo-card" style={{ position: 'relative', minHeight: '200px' }}>
       {!isLoaded && (
         <div className="photo-placeholder" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 2 }}>
           LOADING...
